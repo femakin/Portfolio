@@ -205,9 +205,9 @@ export default function Home() {
             >
               <div className="rounded-lg bg-card text-card-foreground flex">
                 <a className="flex-none" href={experience.link}>
-                  <span className={`relative bg-${experience.bgColor} flex shrink-0 overflow-hidden rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground`}>
+                  <span className={`relative flex shrink-0 overflow-hidden rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground`}>
                     <Image
-                      className="aspect-square  h-full w-full object-contain"
+                      className={` aspect-square  h-full w-full object-contain bg-${experience.bgColor}`}
                       alt={experience.company}
                       src={experience.logo}
                       width={40}
