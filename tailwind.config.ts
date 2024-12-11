@@ -13,6 +13,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
+        regalblue: "#243c5a",
       },
       fontFamily: {
         sans: ["var(--font-inter)"],

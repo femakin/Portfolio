@@ -36,7 +36,7 @@ export default function Home() {
         "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
         "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
       ],
-      bgColor: 'black'
+      bgColor: 'regalblue'
 
     },
 
@@ -52,7 +52,7 @@ export default function Home() {
         "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
         "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
       ],
-        bgColor: 'black'
+      bgColor: 'regalblue'
 
     },
        {
@@ -67,7 +67,7 @@ export default function Home() {
         "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
         "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
       ],
-        bgColor: 'black'
+            bgColor: 'regalblue'
 
     },
         {
@@ -82,7 +82,7 @@ export default function Home() {
         "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
         "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
       ],
-        bgColor: 'black'
+       bgColor: 'regalblue'
 
     },
         {
@@ -97,7 +97,7 @@ export default function Home() {
         "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
         "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
       ],
-        bgColor: 'black'
+         bgColor: 'regalblue'
 
     },
 
@@ -205,9 +205,9 @@ export default function Home() {
             >
               <div className="rounded-lg bg-card text-card-foreground flex">
                 <a className="flex-none" href={experience.link}>
-                  <span className={`relative flex shrink-0 overflow-hidden rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground`}>
+                  <span className={`relative flex shrink-0 overflow-hidden bg-${experience.bgColor} rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground`}>
                     <Image
-                      className={` aspect-square  h-full w-full object-contain bg-${experience.bgColor}`}
+                      className={` aspect-square  h-full w-full object-contain `}
                       alt={experience.company}
                       src={experience.logo}
                       width={40}
