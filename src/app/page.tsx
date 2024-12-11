@@ -675,7 +675,7 @@ const [visibleContentcert, setVisibleContentcert] = useState<number | null>(null
 
           <div className="group flex aspect-square cursor-pointer items-center justify-center rounded-full w-10 h-10 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-gray-100 dark:hover:bg-gray-800">
             <Link
-              href="/"
+              href="https://github.com/femakin"
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="GitHub" showArrow={true} color="foreground">
