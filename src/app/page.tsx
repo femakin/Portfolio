@@ -41,7 +41,7 @@ export default function Home() {
     },
 
      {
-      company: "Changera",
+      company: "Datamellon",
       link: "https://changera.co",
     logo: "https://datamellon.com/images/Datamellon_logo.svg",
       title: "Senior Frontend Engineer",
@@ -56,7 +56,7 @@ export default function Home() {
 
     },
        {
-      company: "Changera",
+        company: "Datamellon",
       link: "https://changera.co",
     logo: "https://datamellon.com/images/Datamellon_logo.svg",
       title: "Senior Frontend Engineer",
@@ -71,7 +71,7 @@ export default function Home() {
 
     },
         {
-      company: "Changera",
+         company: "Datamellon",
       link: "https://changera.co",
     logo: "https://datamellon.com/images/Datamellon_logo.svg",
       title: "Senior Frontend Engineer",
@@ -86,7 +86,7 @@ export default function Home() {
 
     },
         {
-      company: "Changera",
+       company: "Datamellon",
       link: "https://changera.co",
     logo: "https://datamellon.com/images/Datamellon_logo.svg",
       title: "Senior Frontend Engineer",
