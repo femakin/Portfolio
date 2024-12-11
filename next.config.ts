@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
       "photos.fife.usercontent.google.com",
       "images.credly.com",
       "www.tofmat.com",
+      "shortvideoassets.s3.us-east-1.amazonaws.com",
     ],
   },
 };

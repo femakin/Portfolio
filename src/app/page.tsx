@@ -221,25 +221,74 @@ export default function Home() {
 
     const cardsData = [
     {
-      title: 'Earna',
+      title: 'AutoclipsAI',
       description:
-        'Earna empowers independent workers with services such as health plans, income protection, and retirement savings.',
+        'AutoclipsAI allows creators to instantly create captivating videos for their YouTube & TikTok accounts without showing their face!',
       imageUrl:
-        'https://www.tofmat.com/_next/image?url=%2FearnaWeb.png&w=1080&q=75',
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+20.23.56.png',
       tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
-      website: 'https://earna.ai',
+      website: 'https://www.autoclipsai.app/',
+    },
+
+  {
+      title: 'Cover Letter Expert',
+      description:
+        'An AI application that revolutionize job application experience with cutting-edge AI-powered Cover Letter Generator, crafting compelling and personalized cover letters tailored to unique professional journey power by OpenAI',
+      imageUrl:
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.50.41.png',
+      tags: ['Tanstack Query', 'Typescript', 'Javascript', 'Tailwind', 'Websockets',
+
+        'Storybook', 'Nx Monorepo', 'NextJS', 'Gsap', 'Docker'
+       ],
+      website: 'https://www.coverletterexpert.com/',
+      github: 'https://www.coverletterexpert.com/'
+    },
+
+      {
+      title: 'klaudworks.io',
+      description:
+        'Klaudworks helps brands and companies maximize the financial value of their cloud investments with an AI-powered FinOps solution.',
+      imageUrl:
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+20.29.05.png',
+      tags: ['Vue.js', 'Unsplash API', 'SCSS', 'Typescript', ],
+      website: 'https://www.klaudworks.io/',
+      github: 'https://www.klaudworks.io/'
     },
 
      {
-      title: 'Unsplash Image',
+      title: 'Datamellon Website',
       description:
-        'Developed an open-source directory that gets images from unsplash API, and display in a lazy loaded container',
+        'Collaborate with the team to revamp the Datamellon website to  reflects Datamellon`s s values and meets the needs of our growing audience',
       imageUrl:
-        'https://www.tofmat.com/_next/image?url=%2FearnaWeb.png&w=1080&q=75',
-      tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
-      website: 'https://earna.ai',
-      github: 'https://earna.ai'
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.52.54.png',
+      tags: ['Next.js', 'Typescript', 'Chakra UI', 'TailwindCSS', 'React Query'
+       ],
+      website: 'https://datamellon.com/',
+      github: 'https://datamellon.com/'
     },
+
+
+    {
+      title: 'Ajiroba',
+      description:
+        'Developed an auction retail platform.',
+      imageUrl:
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.42.34.png',
+      tags: ['Vue.js', 'Unsplash API', 'SCSS', 'Typescript', ],
+      website: 'https://ajrobaweb-one.vercel.app/',
+      github: 'https://ajrobaweb-one.vercel.app/'
+    },
+
+  {
+      title: 'Create Tribute',
+      description:
+        'Create Tributes allows users to create beautiful memories of their loved ones, share stories and photos, send condolences, and write tributes to preserve their legacies.',
+      imageUrl:
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+22.06.58.png',
+      tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
+      website: 'https://createtribute.com/',
+    },
+
   ]
 
     // const [visibleContent, setVisibleContent] = useState<number | null>(null);
@@ -290,7 +339,7 @@ return (
             {tags.map((tag) => (
               <div
                 key={tag}
-                className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-1 py-0 text-[10px]"
+                className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-[#171717] bg-[#F5F5F5]  shadow hover:bg-[#F5F5F5]/80 px-1 py-0 text-[10px]"
               >
                 {tag}
               </div>
@@ -299,7 +348,7 @@ return (
         </div>
         <div className="flex items-center pt-2 px-2 pb-2 gap-2">
           <a target="_blank" href={website} rel="noopener noreferrer">
-            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[10px]">
+            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow hover:bg-[#171717]/80 flex gap-2 px-2 py-1 text-[10px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -322,8 +371,8 @@ return (
 
           {github &&
 
-            <a target="_blank" href={website} rel="noopener noreferrer">
-            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[10px]">
+         <a target="_blank" href={website} rel="noopener noreferrer">
+            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow hover:bg-[#171717]/80 flex gap-2 px-2 py-1 text-[10px]">
              <svg viewBox="0 0 438.549 438.549" className="size-3"><path fill="currentColor" d="M409.132
              114.573c-19.608-33.596-46.205-60.194-79.798-79.8-33.598-19.607-70.277-29.408-110.063-29.408-39.781 0-76.472 9.804-110.063
               29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.854 0 224.63c0
@@ -750,7 +799,7 @@ return (
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
             Check out my latest work
           </h2>
-          <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className=" text-[#737373] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             I&apos;ve worked on a variety of projects, either on contract, or in
             my leisure. From simple websites to complex web applications. Here
             are a few of my favorites.
@@ -761,98 +810,6 @@ return (
 
 
     <div className="columns-1 md:columns-2 lg:columns-3 gap-x-8 max-w-7xl mx-auto">
-
-
-   {/*    <div className=" break-inside-avoid">
-        <div
-          style={{
-            opacity: 1,
-            filter: "blur(0px)",
-            transform: "translateY(-6px) translateZ(0px)",
-          }}
-        >
-          <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border hover:shadow-lg hover:scale-105 transition-all duration-300 ease-out h-full mb-5">
-            <a className="block cursor-pointer" href="https://earna.ai">
-              <Image
-                alt="Earna"
-                width={500}
-                height={160}
-                className="w-full overflow-hidden object-contain object-top"
-                style={{ color: "transparent" }}
-                src="https://www.tofmat.com/_next/image?url=%2FearnaWeb.png&w=1080&q=75"
-                priority={false}
-              />
-            </a>
-            <div className="flex flex-col px-2 mt-2">
-              <div className="space-y-1">
-                <h3 className="font-semibold tracking-tight mt-1 text-base">
-                  Earna
-                </h3>
-                <time className="font-sans text-xs"></time>
-                <div className="hidden font-sans text-xs underline print:visible"></div>
-                <div className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
-                  <p>
-                    Earna empowers independent workers with services such as
-                    health plans, income protection, and retirement savings.
-                    With insights and automations
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="text-pretty font-sans text-sm text-muted-foreground mt-auto flex flex-col px-2">
-              <div className="mt-2 flex flex-wrap gap-1">
-                <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-1 py-0 text-[10px]">
-                  Next.js
-                </div>
-                <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-1 py-0 text-[10px]">
-                  Typescript
-                </div>
-                <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-1 py-0 text-[10px]">
-                  React
-                </div>
-                <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-1 py-0 text-[10px]">
-                  Framer Motion
-                </div>
-                <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-1 py-0 text-[10px]">
-                  TailwindCSS
-                </div>
-                <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-1 py-0 text-[10px]">
-                  Stripe
-                </div>
-              </div>
-            </div>
-            <div className="flex items-center pt-2 px-2 pb-2">
-              <div className="flex flex-row flex-wrap items-start gap-1">
-                <a
-                  target="_blank"
-                  href="https://earna.ai"
-                  rel="noopener noreferrer"
-                >
-                  <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[10px]">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-globe size-3"
-                    >
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-                      <path d="M2 12h20"></path>
-                    </svg>
-                    Website
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
 
        {cardsData.map((card) => (
