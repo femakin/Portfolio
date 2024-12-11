@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
       "kwasu.edu.ng",
       "photos.fife.usercontent.google.com",
       "images.credly.com",
+      "www.tofmat.com",
     ],
   },
 };
