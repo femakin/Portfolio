@@ -4,7 +4,7 @@
 
 import Image from "next/image";
 import headshot from "@/app/assets/anime.webp";
-import { CiDark, CiHome, CiLinkedin } from "react-icons/ci";
+import { CiDark, CiHome, CiLight, CiLinkedin } from "react-icons/ci";
 import Link from "next/link";
 import { IoBagOutline } from "react-icons/io5";
 import { PiStoolLight } from "react-icons/pi";
@@ -21,6 +21,9 @@ import awsdeveloper from '@/app/assets/awsdeveloper.png'
 import awssolution from '@/app/assets/Awssolution.png'
 import freecodecamp from '@/app/assets/freecodecamp.png'
 import progate from '@/app/assets/progate.svg'
+import { useTheme } from './ThemeContext';
+import { Switch } from '@nextui-org/react';
+
 
 export default function Home() {
 
@@ -313,6 +316,7 @@ const [visibleContentcert, setVisibleContentcert] = useState<number | null>(null
     setVisibleContentcert(visibleContentcert === index ? null : index);
   }
 
+    const { theme, toggleTheme } = useTheme();
 
 const Card = ({ title, description, imageUrl, tags, website, github }: {title: string, description: string, imageUrl: string, tags: string[], website: string, github?: string}) =>{
 return (
@@ -408,7 +412,7 @@ return (
 
 
   return (
-    <div className="min-h-screen bg-background font-sans antialiased max-w-3xl mx-auto py-12 sm:py-24 px-6 __variable_d65c78">
+    <div className="bgMain min-h-screen  font-sans antialiased max-w-3xl mx-auto py-12 sm:py-24 px-6 __variable_d65c78">
       <main className="flex flex-col min-h-[100dvh] space-y-10">
 
         <section id="hero">
@@ -417,7 +421,7 @@ return (
               <div className="flex-col flex flex-1 space-y-1.5">
                 <div className="flex">
                   <span
-                    className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                    className=" dark:text-white  inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                     style={{
                       opacity: 1,
                       filter: "blur(0px)",
@@ -821,8 +825,9 @@ return (
 
 
     </div>
+
   </div>
-</section>;
+</section>
 
 
 
@@ -934,7 +939,16 @@ return (
               href="/"
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
-              <CiDark className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+              {/* <CiDark className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" /> */}
+
+           <Switch className=" ml-4"
+            checked={theme === 'dark'}
+            onChange={toggleTheme}
+            size="lg"
+            color="default"
+            startContent={<CiDark />}
+            endContent={<CiLight />}
+        />
             </Link>
           </div>
         </div>

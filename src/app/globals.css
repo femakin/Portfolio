@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bgMain {
+  @apply bg-white dark:bg-[#1E1D2B];
+}
