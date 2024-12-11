@@ -1,3 +1,4 @@
+import { nextui } from "@nextui-org/theme";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -5,6 +6,7 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/popover.js",
   ],
   theme: {
     extend: {
@@ -14,9 +16,9 @@ export default {
       },
       fontFamily: {
         sans: ["var(--font-inter)"],
-        mono: ["var(--font-roboto-mono)"],
+        /*     mono: ["var(--font-roboto-mono)"], */
       },
     },
   },
-  plugins: [],
+  plugins: [nextui()],
 } satisfies Config;
