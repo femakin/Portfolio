@@ -554,6 +554,65 @@ const [visibleContentcert, setVisibleContentcert] = useState<number | null>(null
 
 
 
+<section id="skills">
+  <div className="flex min-h-0 flex-col gap-y-3">
+    <div
+      style={{
+        opacity: 1,
+        filter: "blur(0px)",
+        transform: "translateY(-6px) translateZ(0px)",
+      }}
+    >
+      <h2 className="text-xl font-bold">Skills</h2>
+    </div>
+
+    {/* Skill list */}
+    <div className="flex flex-wrap gap-1">
+      {[
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+         "TypeScript",
+           "Node.js",
+           "React",
+        "Redux",
+        "Next.js",
+        "AWS",
+        "AWS Amplify",
+        "AWS Lambda",
+        "ChakraUI",
+        "Ant Design",
+        "Git",
+        "Figma",
+        "GCP",
+        "MongoDB",
+        "DynamoDB",
+        "Shadcn",
+        "Storybook",
+        "Tailwind CSS",
+        "MaterialUI",
+        "Vercel",
+        "GraphGl"
+      ].map((skill, index) => (
+        <div
+          key={index}
+          style={{
+            opacity: 1,
+            filter: "blur(0px)",
+            transform: "translateY(-6px) translateZ(0px)",
+          }}
+        >
+          <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow hover:bg-[#171717]/80">
+            {skill}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+
 
 
       </main>
