@@ -23,3 +23,15 @@ body {
 .bgMain {
   @apply bg-white dark:bg-[#1E1D2B];
 }
+
+.txtWht {
+  @apply text-[#08090A] dark:text-[#FAFAFA];
+}
+
+.txtWhtsub {
+  @apply text-[#737373] dark:text-[#A3A3A3];
+}
+
+.txtWhtexptl {
+  @apply text-[#08090A] dark:text-[#FAFAFA];
+}

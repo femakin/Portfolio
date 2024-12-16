@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       "images.credly.com",
       "www.tofmat.com",
       "shortvideoassets.s3.us-east-1.amazonaws.com",
+      "d2fltix0v2e0sb.cloudfront.net",
+      "encrypted-tbn0.gstatic.com",
+      "pbs.twimg.com",
     ],
   },
 };

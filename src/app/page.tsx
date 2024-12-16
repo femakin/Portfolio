@@ -3,13 +3,14 @@
 'use client'
 
 import Image from "next/image";
-import headshot from "@/app/assets/anime.webp";
+// import headshot from "@/app/assets/anime.webp";
+import headshot from "@/app/assets/picofm.png";
 import { CiDark, CiHome, CiLight, CiLinkedin } from "react-icons/ci";
 import Link from "next/link";
 import { IoBagOutline } from "react-icons/io5";
 import { PiStoolLight } from "react-icons/pi";
 import { GoProject } from "react-icons/go";
-import { FaGithub, FaRegEnvelope } from "react-icons/fa";
+import { FaBlog, FaGithub, FaRegEnvelope } from "react-icons/fa";
 
 import { Tooltip } from "@nextui-org/tooltip";
 import {  useState } from "react";
@@ -22,7 +23,7 @@ import awssolution from '@/app/assets/Awssolution.png'
 import freecodecamp from '@/app/assets/freecodecamp.png'
 import progate from '@/app/assets/progate.svg'
 import { useTheme } from './ThemeContext';
-import { Switch } from '@nextui-org/react';
+// import { Switch } from '@nextui-org/react';
 
 
 export default function Home() {
@@ -146,7 +147,7 @@ export default function Home() {
        details: [
 
       ],
-      bgColor: ''
+      bgColor: 'white'
 
     },
 
@@ -157,14 +158,17 @@ export default function Home() {
     {
       company: "Datamellon",
       link: "https://datamellon.com/",
-      logo: "https://datamellon.com/images/Datamellon_logo.svg",
+     /*  logo: "https://datamellon.com/images/Datamellon_logo.svg", */
+     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTldAbP0IGerQC5SKV14jEviAHCXmj4wewZ4w&s",
       title: "Senior Frontend Engineer",
       duration: "Sep 2021 - Present",
        details: [
-        "Led the development of intuitive and sophisticated financial dashboards encompassing FX, cryptocurrency, and payments, resulting in a remarkable 30% improvement in operational efficiency.",
-        "Collaborated with integration partners to monitor other fintech integration channels and escalate technical issues as necessary, thereby ensuring seamless integration with third-party systems.",
-        "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
-        "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
+        "Played a key role in the development of Klaudworks, an AI-powered FinOps solution that ensures continuous monitoring, automated optimization, and strategic cost control, delivering unparalleled financial management for cloud investments.",
+        "Optimized website performance for Datamellon website, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
+        "Actively engaged in planning and translating client requirements into solutions, collaborating with teams to deliver quality results on time.",
+        "Led the development of product dashboards, driving a remarkable 30% improvement in operational efficiency.",
+        "Supported junior colleagues and interns by providing guidance and unblocking challenges in AWS services, including AWS Amplify, while offering additional assistance as needed.",
+
       ],
       bgColor: 'black'
 
@@ -199,7 +203,7 @@ export default function Home() {
         "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
         "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
       ],
-      bgColor: ''
+      bgColor: 'white'
 
     },
 
@@ -215,7 +219,7 @@ export default function Home() {
         "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
         "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
       ],
-         bgColor: ''
+         bgColor: 'white'
 
     },
 
@@ -294,7 +298,57 @@ export default function Home() {
 
   ]
 
-    // const [visibleContent, setVisibleContent] = useState<number | null>(null);
+
+
+   const OpensData = [
+
+ {
+      duration: 'Apr 2023 - Present',
+      company: 'Medusa Hackathon',
+      location: 'Open Source',
+      description:
+        `First place in the 2022 First Medusa Hackathon Challenge (out of 200+ participants across 120 submissions).
+         A challenge to build a Medusa project in 3 weeks. In this challenge, my partner and I developed a Medusa-Payment integration with Paystack,
+        which earned us the title of Overall Winner.`,
+      imageUrl:
+        'https://pbs.twimg.com/profile_images/1642940899918331908/rgDM_I8h_400x400.jpg',
+      tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
+      website: 'https://medusajs.com/blog/hackathon-winners/',
+        github: 'https://github.com/a11rew/medusa-payment-paystack'
+    },
+
+    {
+      duration: 'Apr 2023 - Present',
+      company: 'Moderator at DEV Community',
+      location: 'Open Source',
+      description:
+        `As a moderator (trusted user) at DEV Community (dev.to),
+         I monitor and moderate posts and comments on DEV platform,
+          make sure that they are following the Code of Conduct.`,
+      imageUrl:
+        'https://d2fltix0v2e0sb.cloudfront.net/dev-black.png',
+      tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
+      website: 'https://dev.to/femi_akinyemi',
+        github: '/'
+    },
+
+   {
+      duration: 'Aug 2023 - Aug 2024',
+      company: 'Community Builder',
+      location: 'Amazon Web Services (AWS)',
+      description:
+        `As an active contributor to the growth and development of the AWS community,
+        my primary focus is to share knowledge, foster collaboration,
+        and promote the adoption of AWS services and solutions among local community members.`,
+      imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSR4sWGfuHCmHvYGFZVQvgRWI1CGQMSVVN2g&s',
+      tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
+      website: 'https://aws.amazon.com/developer/community/community-builders/',
+
+    },
+
+
+  ]
 
       const [visibleContent, setVisibleContent] = useState(
     workExperiences.length > 0 ? 0 : null
@@ -321,7 +375,7 @@ const [visibleContentcert, setVisibleContentcert] = useState<number | null>(null
 const Card = ({ title, description, imageUrl, tags, website, github }: {title: string, description: string, imageUrl: string, tags: string[], website: string, github?: string}) =>{
 return (
   <div className="break-inside-avoid">
-      <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border hover:shadow-lg hover:scale-105 transition-all duration-300 ease-out h-full mb-5">
+      <div className="rounded-lg bg-card  text-card-foreground flex flex-col overflow-hidden   border dark:border-[#373232] hover:shadow-lg hover:scale-105 transition-all duration-300 ease-out h-full mb-5">
         <a className="block cursor-pointer" href={website}>
           <Image
             alt={title}
@@ -333,8 +387,8 @@ return (
           />
         </a>
         <div className="flex flex-col px-2 mt-2">
-          <h3 className="font-semibold tracking-tight mt-1 text-base">{title}</h3>
-          <div className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+          <h3 className="font-semibold tracking-tight mt-1 text-base dark:text-[#FAFAFA]">{title}</h3>
+          <div className="prose txtWhtsub max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
             <p>{description}</p>
           </div>
         </div>
@@ -343,7 +397,7 @@ return (
             {tags.map((tag) => (
               <div
                 key={tag}
-                className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-[#171717] bg-[#F5F5F5]  shadow hover:bg-[#F5F5F5]/80 px-1 py-0 text-[10px]"
+                className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-[#171717] bg-[#F5F5F5] dark:bg-[#262626] dark:text-[#FAFAFA]  shadow hover:bg-[#F5F5F5]/80 px-1 py-0 text-[10px]"
               >
                 {tag}
               </div>
@@ -352,7 +406,7 @@ return (
         </div>
         <div className="flex items-center pt-2 px-2 pb-2 gap-2">
           <a target="_blank" href={website} rel="noopener noreferrer">
-            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow hover:bg-[#171717]/80 flex gap-2 px-2 py-1 text-[10px]">
+            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow dark:bg-[#FAFAFA] dark:text-[#171717] dark:hover:bg-[#FAFAFA]/80 flex gap-2 px-2 py-1 text-[10px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -376,7 +430,7 @@ return (
           {github &&
 
          <a target="_blank" href={website} rel="noopener noreferrer">
-            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow hover:bg-[#171717]/80 flex gap-2 px-2 py-1 text-[10px]">
+            <div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow dark:bg-[#FAFAFA] dark:text-[#171717] dark:hover:bg-[#FAFAFA]/80 flex gap-2 px-2 py-1 text-[10px]">
              <svg viewBox="0 0 438.549 438.549" className="size-3"><path fill="currentColor" d="M409.132
              114.573c-19.608-33.596-46.205-60.194-79.798-79.8-33.598-19.607-70.277-29.408-110.063-29.408-39.781 0-76.472 9.804-110.063
               29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.854 0 224.63c0
@@ -433,7 +487,7 @@ return (
                 </div>
                 <div className="flex">
                   <span
-                    className="inline-block max-w-[600px] md:text-xl"
+                    className="inline-block max-w-[600px] md:text-xl txtWht"
                     style={{
                       opacity: 1,
                       filter: "blur(0px)",
@@ -472,7 +526,7 @@ return (
               transform: "translateY(-8px) translateZ(0px)",
             }}
           >
-            <h2 className="text-xl font-bold">About</h2>
+            <h2 className="text-xl font-bold txtWht">About</h2>
           </div>
 
           <div
@@ -483,14 +537,14 @@ return (
             }}
           >
             <div className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-              <p className="text-[#737373]">
+              <p className="text-[#737373] txtWhtsub">
                 I am a frontend engineer with over 4 years of experience,
                 holding a degree in mathematics and a Master of Science (MSc) in
                 mathematics, and a strong background in software development
                 using JavaScript, TypeScript, React, and NextJs amongst other
                 tools. Over the years, I have specialized in building and
                 optimizing web applications in several industries and startups,
-                especially in the cloud space, working with cross-functional
+                especially in the cloud space, and AI space, working with cross-functional
                 teams to design solutions that meet business goals and drive
                 measurable results. My commitment to best practices and
                 attention to detail ensures that my code not only meets
@@ -504,7 +558,7 @@ return (
 
      <section id="work">
       <div className="flex min-h-0 flex-col gap-y-3">
-        <h2 className="text-xl font-bold">Work Experience</h2>
+        <h2 className="text-xl font-bold txtWht">Work Experience</h2>
         {workExperiences.map((experience, index) => (
           <div key={index}>
             <div
@@ -528,7 +582,7 @@ return (
                 <div className="flex-grow ml-4 items-center flex-col group">
                   <div className="flex flex-col">
                     <div className="flex items-center justify-between gap-x-2 text-base">
-                      <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
+                      <h3 className="txtWhtexptl inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                         {experience.company}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -547,11 +601,11 @@ return (
                           <path d="m9 18 6-6-6-6"></path>
                         </svg>
                       </h3>
-                      <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                      <div className="text-xs txtWhtsub sm:text-sm tabular-nums text-muted-foreground text-right">
                         {experience.duration}
                       </div>
                     </div>
-                    <div className="font-sans text-xs">{experience.title}</div>
+                    <div className="font-sans text-xs txtWhtexptl">{experience.title}</div>
                   </div>
                 </div>
               </div>
@@ -567,7 +621,7 @@ return (
               >
               {/*   {experience.details} */}
                 {experience.details.map((detail, detailIndex) => (
-                  <li className=" list-item text-[#737373] font-sans" key={detailIndex}>{detail}</li>
+                  <li className=" txtWhtsub list-item text-[#737373] font-sans" key={detailIndex}>{detail}</li>
                 ))}
               </div>
             )}
@@ -578,7 +632,7 @@ return (
 
     <section id="education">
       <div className="flex min-h-0 flex-col gap-y-3">
-        <h2 className="text-xl font-bold">Education</h2>
+        <h2 className="text-xl font-bold txtWht">Education</h2>
         {EducationExperiences.map((experience, index) => (
           <div key={index}>
             <div
@@ -602,7 +656,7 @@ return (
                 <div className="flex-grow ml-4 items-center flex-col group">
                   <div className="flex flex-col">
                     <div className="flex items-center justify-between gap-x-2 text-base">
-                      <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
+                      <h3 className="inline-flex txtWhtexptl items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                         {experience.company}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -621,11 +675,11 @@ return (
                           <path d="m9 18 6-6-6-6"></path>
                         </svg>
                       </h3>
-                      <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                      <div className="text-xs txtWhtsub sm:text-sm tabular-nums text-muted-foreground text-right">
                         {experience.duration}
                       </div>
                     </div>
-                    <div className="font-sans text-xs">{experience.title}</div>
+                    <div className="font-sans text-xs txtWhtexptl">{experience.title}</div>
                   </div>
                 </div>
               </div>
@@ -653,7 +707,7 @@ return (
 
         <section id="licences">
       <div className="flex min-h-0 flex-col gap-y-3">
-        <h2 className="text-xl font-bold">Licenses & certifications</h2>
+        <h2 className="text-xl font-bold txtWht">Licenses & certifications</h2>
         {LicencesandCert.map((experience, index) => (
           <div key={index}>
             <div
@@ -677,30 +731,15 @@ return (
                 <div className="flex-grow ml-4 items-center flex-col group">
                   <div className="flex flex-col">
                     <div className="flex items-center justify-between gap-x-2 text-base">
-                      <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
+                      <h3 className="inline-flex txtWhtexptl items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                         {experience.company}
-                      {/*   <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className={`lucide lucide-chevron-right size-4 transform transition-transform duration-300 ${
-                            visibleContent === index ? "rotate-90" : ""
-                          }`}
-                        >
-                          <path d="m9 18 6-6-6-6"></path>
-                        </svg> */}
+
                       </h3>
-                      <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                      <div className=" txtWhtsub text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
                         {experience.duration}
                       </div>
                     </div>
-                    <div className="font-sans text-xs">{experience.title}</div>
+                    <div className="font-sans text-xs  txtWhtexptl">{experience.title}</div>
                   </div>
                 </div>
               </div>
@@ -714,9 +753,9 @@ return (
                   transition: "opacity 0.3s, height 0.3s",
                 }}
               >
-              {/*   {experience.details} */}
+
                 {experience.details.map((detail, detailIndex) => (
-                  <li className=" list-item text-[#737373] font-sans" key={detailIndex}>{detail}</li>
+                  <li className=" list-item text-[#737373] font-sans  " key={detailIndex}>{detail}</li>
                 ))}
               </div>
             )}
@@ -736,7 +775,7 @@ return (
         transform: "translateY(-6px) translateZ(0px)",
       }}
     >
-      <h2 className="text-xl font-bold">Skills</h2>
+      <h2 className="text-xl font-bold txtWht">Skills</h2>
     </div>
 
     {/* Skill list */}
@@ -776,7 +815,7 @@ return (
             transform: "translateY(-6px) translateZ(0px)",
           }}
         >
-          <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#171717] text-primary-foreground shadow hover:bg-[#171717]/80">
+          <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent dark:bg-[#FAFAFA] dark:text-[#171717] dark:hover:bg-[#FAFAFA]/80 bg-[#171717] text-primary-foreground shadow hover:bg-[#171717]/80">
             {skill}
           </div>
         </div>
@@ -797,13 +836,13 @@ return (
     >
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             My Projects
           </div>
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white ">
             Check out my latest work
           </h2>
-          <p className=" text-[#737373] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className=" txtWhtsub text-[#737373] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             I&apos;ve worked on a variety of projects, either on contract, or in
             my leisure. From simple websites to complex web applications. Here
             are a few of my favorites.
@@ -831,6 +870,124 @@ return (
 
 
 
+<section id="hackathons">
+  <div className="space-y-12 w-full py-12">
+    <div
+      style={{
+        opacity: 1,
+        filter: "blur(0px)",
+        transform: "translateY(-6px) translateZ(0px)",
+      }}
+    >
+
+      <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="space-y-2">
+          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+            Volunteering &amp; Hackathons
+          </div>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white">
+            I like contributing
+          </h2>
+          <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed txtWhtsub">
+           In my free time, I’ve taken part in several hackathons and volunteered with tech communities and events.
+            These experiences were truly eye-opening, showcasing the endless possibilities that can be achieved by motivated and passionate individuals working together.
+           Some of my favorites are listed below.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+     {OpensData.map((card) => (
+        <div key={card.company}
+      style={{
+        opacity: 1,
+        filter: "blur(0px)",
+        transform: "translateY(-6px) translateZ(0px)",
+      }}
+    >
+      <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+        <div
+          style={{
+            opacity: 1,
+            filter: "blur(0px)",
+            transform: "translateY(-6px) translateZ(0px)",
+          }}
+        >
+          <li className="relative ml-10 py-4">
+            <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+              <span className="relative flex shrink-0 overflow-hidden rounded-full border size-12 m-auto">
+                <Image
+                  className={` aspect-square  h-full w-full object-contain `}
+                  alt={"experience.company"}
+                  src={card.imageUrl}
+                  width={40}
+                  height={40}
+                />
+              </span>
+            </div>
+
+            <div className="flex flex-1 flex-col justify-start gap-1">
+              <time className="text-xs text-muted-foreground  txtWhtsub">
+                {card.duration}
+              </time>
+              <h2 className="font-semibold leading-none dark:text-[#FAFAFA]">
+                {card.company}
+              </h2>
+              <p className="text-sm text-muted-foreground  txtWhtsub">
+                {card.location}
+              </p>
+              <span className="prose dark:prose-invert text-sm text-muted-foreground  txtWhtsub">
+             {card.description}
+              </span>
+            </div>
+
+            <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
+              <a href={card.website}>
+                <div
+                  className="items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent
+      bg-[#171717] dark:bg-[#FAFAFA] text-primary-foreground dark:text-black
+      dark:hover:bg-[#FAFAFA]/80 flex gap-2"
+                  title="Source (Web)"
+                >
+                  <FaGithub className="text-xl text-white dark:text-black  transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                  Source (Web)
+                </div>
+              </a>
+
+              {
+                card?.github && (
+                   <a href={card.github}>
+                <div
+                  className="items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent
+      bg-[#171717] dark:bg-[#FAFAFA] text-primary-foreground dark:text-black
+      dark:hover:bg-[#FAFAFA]/80 flex gap-2"
+                  title="Source (API)"
+                >
+                  <FaGithub className="text-xl text-white dark:text-black  transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                  Source (API)
+                </div>
+              </a>
+                )
+              }
+
+
+
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+      ))}
+
+
+
+  </div>
+</section>
+
+
+
       </main>
 
 
@@ -838,14 +995,14 @@ return (
 
 
       <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
-        <div className="w-max p-2 rounded-full border z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background shadow-md dark:border-gray-700 dark:shadow-lg">
+        <div className="w-max p-2 rounded-full border z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background dark:bg-foreground shadow-md dark:border-gray-700 dark:shadow-lg">
           <div className="group flex aspect-square cursor-pointer items-center justify-center rounded-full w-10 h-10 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-gray-100 dark:hover:bg-gray-800">
             <Link
               href="/"
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Home" showArrow={true} color="foreground">
-                <CiHome className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <CiHome className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -856,7 +1013,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Experience" showArrow={true} color="foreground">
-                <IoBagOutline className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <IoBagOutline className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -867,7 +1024,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Skills" showArrow={true} color="foreground">
-                <PiStoolLight className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <PiStoolLight className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -878,7 +1035,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Projects" showArrow={true} color="foreground">
-                <GoProject className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <GoProject className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -898,7 +1055,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="GitHub" showArrow={true} color="foreground">
-                <FaGithub className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <FaGithub className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -909,7 +1066,19 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="LinkedIn " showArrow={true} color="foreground">
-                <CiLinkedin className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <CiLinkedin className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+              </Tooltip>
+            </Link>
+          </div>
+
+
+           <div className="group flex aspect-square cursor-pointer items-center justify-center rounded-full w-10 h-10 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-gray-100 dark:hover:bg-gray-800">
+            <Link
+              href="https://dev.to/femi_akinyemi"
+              className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
+            >
+              <Tooltip content="Blog " showArrow={true} color="foreground">
+                <FaBlog className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -920,7 +1089,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Email " showArrow={true} color="foreground">
-                <FaRegEnvelope className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <FaRegEnvelope className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -935,21 +1104,24 @@ return (
           ></div>
 
           <div className="group flex aspect-square cursor-pointer items-center justify-center rounded-full w-10 h-10 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-gray-100 dark:hover:bg-gray-800">
-            <Link
-              href="/"
+
+      <div className="group flex aspect-square cursor-pointer items-center justify-center rounded-full w-10 h-10 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-gray-100 dark:hover:bg-gray-800">
+            <div
+                 onClick={toggleTheme}
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
-              {/* <CiDark className="text-xl transition-transform duration-300 ease-in-out group-hover:scale-125" /> */}
+ {theme === "dark" ? (
+                    <CiDark className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
 
-           <Switch className=" ml-4"
-            checked={theme === 'dark'}
-            onChange={toggleTheme}
-            size="lg"
-            color="default"
-            startContent={<CiDark />}
-            endContent={<CiLight />}
-        />
-            </Link>
+      ) : (
+                      <CiLight className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+
+      )}
+
+
+            </div>
+          </div>
+
           </div>
         </div>
       </div>
