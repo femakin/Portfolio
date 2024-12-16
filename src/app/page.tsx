@@ -237,7 +237,7 @@ export default function Home() {
         'AutoclipsAI allows creators to instantly create captivating videos for their YouTube & TikTok accounts without showing their face!',
       imageUrl:
         'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+20.23.56.png',
-      tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
+      tags: ['Next.js', 'MongoDB', 'Typescript', 'Resend', 'AWS Amplify', 'Paystack', 'Axios', 'Framer Motion', 'Next-Auth', 'TailwindCSS', 'Lemon Sqeezy'],
       website: 'https://www.autoclipsai.app/',
     },
 
@@ -247,9 +247,9 @@ export default function Home() {
         'An AI application that revolutionize job application experience with cutting-edge AI-powered Cover Letter Generator, crafting compelling and personalized cover letters tailored to unique professional journey power by OpenAI',
       imageUrl:
         'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.50.41.png',
-      tags: ['Tanstack Query', 'Typescript', 'Javascript', 'Tailwind', 'Websockets',
+      tags: ['React', 'Tanstack Query', 'Typescript', 'AWS Amplify', 'Next-Auth', 'Javascript', 'Tailwind',
 
-        'Storybook', 'Nx Monorepo', 'NextJS', 'Gsap', 'Docker'
+        'Storybook', 'MongoDB', 'NextJS', 'Lemon Squeezy', 'PayStack'
        ],
       website: 'https://www.coverletterexpert.com/',
       github: 'https://www.coverletterexpert.com/'
@@ -261,7 +261,7 @@ export default function Home() {
         'Klaudworks helps brands and companies maximize the financial value of their cloud investments with an AI-powered FinOps solution.',
       imageUrl:
         'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+20.29.05.png',
-      tags: ['Vue.js', 'Unsplash API', 'SCSS', 'Typescript', ],
+      tags: ['React', 'Chart.js', 'Recharts', 'DynamoDB', 'Axios', 'AWS Amplify', 'React Testing Library', 'TailwindCSS',  'Typescript', 'Vite' ],
       website: 'https://www.klaudworks.io/',
       github: 'https://www.klaudworks.io/'
     },
@@ -272,7 +272,7 @@ export default function Home() {
         'Collaborate with the team to revamp the Datamellon website to  reflects Datamellon`s s values and meets the needs of our growing audience',
       imageUrl:
         'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.52.54.png',
-      tags: ['Next.js', 'Typescript', 'Chakra UI', 'TailwindCSS', 'React Query'
+      tags: ['React', 'Typescript', 'Material UI', 'Swiper', 'AWS Amplify', 'DynamoDB', 'React Testing Library', 'TailwindCSS', 'React Query'
        ],
       website: 'https://datamellon.com/',
       github: 'https://datamellon.com/'
@@ -285,7 +285,7 @@ export default function Home() {
         'Developed an auction retail platform.',
       imageUrl:
         'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.42.34.png',
-      tags: ['Vue.js', 'Unsplash API', 'SCSS', 'Typescript', ],
+      tags: ['Next.js', 'TailwindCSS', 'Zustand', 'Tanstack Query', 'Framer Motion', 'Axios', 'Swiper', 'Typescript', ],
       website: 'https://ajrobaweb-one.vercel.app/',
       github: 'https://ajrobaweb-one.vercel.app/'
     },
@@ -296,7 +296,7 @@ export default function Home() {
         'Create Tributes allows users to create beautiful memories of their loved ones, share stories and photos, send condolences, and write tributes to preserve their legacies.',
       imageUrl:
         'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+22.06.58.png',
-      tags: ['Next.js', 'Typescript', 'React', 'Framer Motion', 'TailwindCSS', 'Stripe'],
+      tags: ['Next.js', 'Typescript',  'Framer Motion', 'TailwindCSS', 'PayStack', 'Jest'],
       website: 'https://createtribute.com/',
     },
 
