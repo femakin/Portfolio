@@ -992,6 +992,48 @@ return (
 
 
 
+<section id="contact">
+  <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+    <div
+      style={{
+        opacity: 1,
+        filter: "blur(0px)",
+        transform: "translateY(-6px) translateZ(0px)",
+      }}
+    >
+      <div className="space-y-3">
+        <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+          Contact
+        </div>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white">
+          Let’s Connect &amp; Innovate
+        </h2>
+        <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed txtWhtsub">
+          I’m always eager to learn, explore new challenges, and connect with
+          professionals who are passionate about technology and innovation. If
+          you’re looking to elevate your projects with a blend of creativity,
+          collaboration, and technical excellence, feel free to connect with me
+          on{" "}
+          <a
+            className="text-blue-500 hover:underline"
+            href="https://www.linkedin.com/in/femi-akinyemi/"
+          >
+            Linkedin
+          </a>{" "}
+          or reach out at{" "}
+          <a
+            className="text-blue-500 hover:underline"
+            href="mailto: akinfemi46@gmail.com"
+          >
+            akinfemi46@gmail.com
+          </a>{" "}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
       </main>
 
 
