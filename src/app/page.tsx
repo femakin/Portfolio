@@ -165,6 +165,7 @@ export default function Home() {
        details: [
         "Played a key role in the development of Klaudworks, an AI-powered FinOps solution that ensures continuous monitoring, automated optimization, and strategic cost control, delivering unparalleled financial management for cloud investments.",
         "Optimized website performance for Datamellon website, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
+        "Leveraged AWS tools like Amplify, S3, and EC2 services, for deployment and hosting services.",
         "Actively engaged in planning and translating client requirements into solutions, collaborating with teams to deliver quality results on time.",
         "Led the development of product dashboards, driving a remarkable 30% improvement in operational efficiency.",
         "Supported junior colleagues and interns by providing guidance and unblocking challenges in AWS services, including AWS Amplify, while offering additional assistance as needed.",
@@ -175,17 +176,21 @@ export default function Home() {
     },
 
 
+
+
+
       {
       company: "AutoclipsAI",
       link: "https://www.autoclipsai.app/",
       logo: autoclips,
-      title: "Founding Frontend Engineer (Contractor)",
+      title: "Founding Senior Frontend Engineer (Contractor)",
       duration: "Jun 2024 - Present",
        details: [
-        "Led the development of intuitive and sophisticated financial dashboards encompassing FX, cryptocurrency, and payments, resulting in a remarkable 30% improvement in operational efficiency.",
-        "Collaborated with integration partners to monitor other fintech integration channels and escalate technical issues as necessary, thereby ensuring seamless integration with third-party systems.",
-        "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
-        "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
+        "Led the development of user-friendly interfaces to streamline video creation, enhancing accessibility and user satisfaction.",
+        "Leveraged AWS tools like Amplify, S3, and EC2 services, for deployment and hosting services.",
+        "Analyzed and resolved technical issues related to video creation, minimizing downtime and maximizing customer satisfaction.",
+        "Utilized test automation to ensure maintainable solutions and reduce bugs pushed to production significantly.",
+
       ],
       bgColor: 'white'
 
@@ -198,10 +203,10 @@ export default function Home() {
       title: "Frontend Engineer (Contractor)",
       duration: "May 2022 - Dec 2022",
        details: [
-        "Led the development of intuitive and sophisticated financial dashboards encompassing FX, cryptocurrency, and payments, resulting in a remarkable 30% improvement in operational efficiency.",
-        "Collaborated with integration partners to monitor other fintech integration channels and escalate technical issues as necessary, thereby ensuring seamless integration with third-party systems.",
-        "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
-        "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
+        "Redesigned and optimized the company’s website and admin portal, enhancing user experience and functionality, which significantly improved customer satisfaction and retention rates.",
+        "Implemented UI from Figma designs, integrating RESTful APIs and endpoints for seamless user experiences.",
+        "Optimized registration and onboarding flows, culminating in a significant 40% increase in completed registrations.",
+        "Managed technical team to deliver high-quality projects on time.",
       ],
       bgColor: 'white'
 
@@ -214,10 +219,9 @@ export default function Home() {
       title: "Frontend Engineer (Internship)",
       duration: "Aug 2020 - Nov 2020",
        details: [
-        "Led the development of intuitive and sophisticated financial dashboards encompassing FX, cryptocurrency, and payments, resulting in a remarkable 30% improvement in operational efficiency.",
-        "Collaborated with integration partners to monitor other fintech integration channels and escalate technical issues as necessary, thereby ensuring seamless integration with third-party systems.",
-        "Innovatively integrated both web2 and web3 payment gateways, significantly broadening user payment options by 25% and positioning Changera as a pioneer in diverse payment solutions.",
-        "Optimized website performance for Bitmama and Changera, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
+        "Collaborated with the team in gathering software requirements, contributing to design discussions, and participating in code reviews.",
+        "Converted UI/UX designs and wireframes into responsive and high-quality code.",
+        "Built and deployed dynamic web applications using front-end technologies such as React, ensuring seamless user experiences.",
       ],
          bgColor: 'white'
 
@@ -1085,7 +1089,7 @@ return (
 
           <div className="group flex aspect-square cursor-pointer items-center justify-center rounded-full w-10 h-10 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-gray-100 dark:hover:bg-gray-800">
             <Link
-              href="/"
+              href="mailto: akinfemi46@gmail.com"
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Email " showArrow={true} color="foreground">
