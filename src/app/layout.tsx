@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import "./globals.css";
 import { NextUIProvider } from '@nextui-org/react';
 import { ThemeProvider } from "./ThemeContext";
-
+import { Analytics } from '@vercel/analytics/next';
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -45,6 +45,7 @@ export default function RootLayout({
         <ThemeProvider>
             <NextUIProvider>
                  {children}
+                    <Analytics />
             </NextUIProvider>
         </ThemeProvider>
 
