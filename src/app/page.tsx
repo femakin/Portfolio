@@ -479,7 +479,7 @@ return (
               <div className="flex-col flex flex-1 space-y-1.5">
                 <div className="flex">
                   <span
-                    className=" dark:text-white  inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                    className=" dark:text-white text-[#08090A]  inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                     style={{
                       opacity: 1,
                       filter: "blur(0px)",
@@ -843,7 +843,7 @@ return (
           <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             My Projects
           </div>
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white ">
+          <h2 className="text-3xl text-[#08090A] font-bold tracking-tighter sm:text-5xl dark:text-white ">
             Check out my latest work
           </h2>
           <p className=" txtWhtsub text-[#737373] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -1046,7 +1046,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Home" showArrow={true} color="foreground">
-                <CiHome className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <CiHome className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -1057,7 +1057,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Experience" showArrow={true} color="foreground">
-                <IoBagOutline className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <IoBagOutline className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -1068,7 +1068,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Skills" showArrow={true} color="foreground">
-                <PiStoolLight className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <PiStoolLight className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -1079,7 +1079,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Projects" showArrow={true} color="foreground">
-                <GoProject className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <GoProject className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -1099,7 +1099,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="GitHub" showArrow={true} color="foreground">
-                <FaGithub className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <FaGithub className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -1110,7 +1110,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="LinkedIn " showArrow={true} color="foreground">
-                <CiLinkedin className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <CiLinkedin className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -1122,7 +1122,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Blog " showArrow={true} color="foreground">
-                <FaBlog className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <FaBlog className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
@@ -1133,7 +1133,7 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
               <Tooltip content="Email " showArrow={true} color="foreground">
-                <FaRegEnvelope className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                <FaRegEnvelope className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
               </Tooltip>
             </Link>
           </div>
