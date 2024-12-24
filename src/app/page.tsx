@@ -391,7 +391,7 @@ return (
           />
         </a>
         <div className="flex flex-col px-2 mt-2">
-          <h3 className="font-semibold tracking-tight mt-1 text-base dark:text-[#FAFAFA]">{title}</h3>
+          <h3 className="font-semibold tracking-tight mt-1 text-[#171717] text-base dark:text-[#FAFAFA]">{title}</h3>
           <div className="prose txtWhtsub max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
             <p>{description}</p>
           </div>
@@ -840,7 +840,7 @@ return (
     >
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+          <div className="inline-block rounded-lg bg-foreground text-[#171717] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             My Projects
           </div>
           <h2 className="text-3xl text-[#08090A] font-bold tracking-tighter sm:text-5xl dark:text-white ">
@@ -886,7 +886,7 @@ return (
 
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+          <div className="inline-block rounded-lg bg-foreground text-[#171717] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             Volunteering &amp; Hackathons
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white">
@@ -1000,10 +1000,10 @@ return (
       }}
     >
       <div className="space-y-3">
-        <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+        <div className="inline-block rounded-lg bg-foreground text-[#171717] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
           Contact
         </div>
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white">
+        <h2 className="text-3xl text-[#171717] font-bold tracking-tighter sm:text-5xl dark:text-white">
           Let’s Connect &amp; Innovate
         </h2>
         <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed txtWhtsub">
@@ -1039,7 +1039,7 @@ return (
 
 
       <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
-        <div className="w-max p-2 rounded-full border z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background  shadow-md dark:bg-[#08090A] dark:border-gray-700 dark:shadow-lg">
+        <div className="w-max p-2 rounded-full border z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-[#ffffff]  shadow-md dark:bg-[#08090A] dark:border-gray-700 dark:shadow-lg">
           <div className="group flex aspect-square cursor-pointer items-center justify-center rounded-full w-10 h-10 transform transition-transform duration-300 ease-in-out hover:scale-110 dark:bg-[#08090A] hover:bg-gray-100 dark:hover:bg-gray-800">
             <Link
               href="/"
