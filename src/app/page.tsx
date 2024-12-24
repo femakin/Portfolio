@@ -286,8 +286,8 @@ export default function Home() {
       imageUrl:
         'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.42.34.png',
       tags: ['Next.js', 'TailwindCSS', 'Zustand', 'Tanstack Query', 'Framer Motion', 'Axios', 'Swiper', 'Typescript', ],
-      website: 'https://ajrobaweb-one.vercel.app/',
-      github: 'https://ajrobaweb-one.vercel.app/'
+      website: 'https://ajiroba.org/',
+      github: 'https://ajiroba.org/'
     },
 
   {
