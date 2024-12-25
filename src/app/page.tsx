@@ -840,7 +840,7 @@ return (
     >
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-foreground text-[#171717] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+          <div className="inline-block rounded-lg bg-foreground text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             My Projects
           </div>
           <h2 className="text-3xl text-[#08090A] font-bold tracking-tighter sm:text-5xl dark:text-white ">
@@ -886,10 +886,10 @@ return (
 
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-foreground text-[#171717] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+          <div className="inline-block rounded-lg bg-foreground text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             Volunteering &amp; Hackathons
           </div>
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-[#171717] dark:text-white">
             I like contributing
           </h2>
           <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed txtWhtsub">
@@ -1000,7 +1000,7 @@ return (
       }}
     >
       <div className="space-y-3">
-        <div className="inline-block rounded-lg bg-foreground text-[#171717] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+        <div className="inline-block rounded-lg bg-foreground text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
           Contact
         </div>
         <h2 className="text-3xl text-[#171717] font-bold tracking-tighter sm:text-5xl dark:text-white">
