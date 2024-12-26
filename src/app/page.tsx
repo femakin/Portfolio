@@ -573,7 +573,7 @@ return (
                 <a className="flex-none" href={experience.link}>
                   <span style={{
                     backgroundColor: `${experience.bgColor}`
-                  }} className={`relative flex shrink-0 overflow-hidden  rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground`}>
+                  }} className={`relative flex shrink-0 overflow-hidden  rounded-full border size-12 m-auto bg-muted-background dark:bg-[#08090A]`}>
                     <Image
                       className={` aspect-square  h-full w-full object-contain `}
                       alt={experience.company}
@@ -647,7 +647,7 @@ return (
                 <a className="flex-none" href={experience.link}>
                   <span style={{
                     backgroundColor: `${experience.bgColor}`
-                  }} className={`relative flex shrink-0 overflow-hidden  rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground`}>
+                  }} className={`relative flex shrink-0 overflow-hidden  rounded-full border size-12 m-auto bg-muted-background dark:bg-[#08090A]`}>
                     <Image
                       className={` aspect-square  h-full w-full object-contain `}
                       alt={experience.company}
@@ -722,7 +722,7 @@ return (
                 <a className="flex-none" href={experience.link}>
                   <span style={{
                     backgroundColor: `${experience.bgColor}`
-                  }} className={`relative flex shrink-0 overflow-hidden  rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground`}>
+                  }} className={`relative flex shrink-0 overflow-hidden  rounded-full border size-12 m-auto bg-muted-background dark:bg-[#08090A]`}>
                     <Image
                       className={` aspect-square  h-full w-full object-contain `}
                       alt={experience.company}
@@ -840,7 +840,7 @@ return (
     >
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-foreground text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+          <div className="inline-block rounded-lg bg-[#08090A] text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             My Projects
           </div>
           <h2 className="text-3xl text-[#08090A] font-bold tracking-tighter sm:text-5xl dark:text-white ">
@@ -886,7 +886,7 @@ return (
 
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-foreground text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+          <div className="inline-block rounded-lg bg-[#08090A] text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
             Volunteering &amp; Hackathons
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-[#171717] dark:text-white">
@@ -1000,7 +1000,7 @@ return (
       }}
     >
       <div className="space-y-3">
-        <div className="inline-block rounded-lg bg-foreground text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
+        <div className="inline-block rounded-lg bg-[#08090A] text-[#ffffff] px-3 py-1 text-sm dark:text-[#08090A] dark:bg-[#FAFAFA]">
           Contact
         </div>
         <h2 className="text-3xl text-[#171717] font-bold tracking-tighter sm:text-5xl dark:text-white">
@@ -1155,10 +1155,10 @@ return (
               className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring rounded-full"
             >
  {theme === "dark" ? (
-                    <CiDark className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                    <CiDark className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
 
       ) : (
-                      <CiLight className="text-xl dark:text-white transition-transform duration-300 ease-in-out group-hover:scale-125" />
+                      <CiLight className="text-xl dark:text-white text-[#08090A] transition-transform duration-300 ease-in-out group-hover:scale-125" />
 
       )}
 
