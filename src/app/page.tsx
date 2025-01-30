@@ -4,7 +4,7 @@
 
 import Image from "next/image";
 // import headshot from "@/app/assets/anime.webp";
-import headshot from "@/app/assets/picofm.png";
+import headshot from "@/app/assets/profilephotofemi.jpg";
 import { CiDark, CiHome, CiLight, CiLinkedin } from "react-icons/ci";
 import Link from "next/link";
 import { IoBagOutline } from "react-icons/io5";
