@@ -237,6 +237,43 @@ export default function Home() {
     },
 
     {
+      title: 'CodePullAI',
+      description:
+        'AI Code Review Assistant (Powered by AWS Lambda and AWS API Gateway)',
+      imageUrl:
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/codepullai.png',
+      tags: ['AWS Lambda', 'API Gateway', 'DynamoDB', 'Amazon Bedrock', 'Supabase Auth', 'Next.js', 'GitHub API', 'AWS Amplify'],
+      website: 'https://www.codepullai.site/',
+         github: 'https://github.com/femakin/CodePullAI'
+    },
+
+    {
+      title: 'ExamAI',
+      description:
+        'AI-Powered Study Tools that allow educators to effortlessly transform study material into AI-generated flashcards, multiple-choice questions, case studies, and more, all designed to enhance learning activities.',
+      imageUrl:
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2025-07-19+at+09.43.53.png',
+      tags: ['Next.js', 'Typescript', 'OpenAI', 'Superbase', 'Clerk Auth', 'Swiper', 'AWS Amplify', 'DynamoDB', 'React Testing Library', 'TailwindCSS', 'React Query'
+      ],
+      website: 'https://www.examai.app/',
+      github: 'https://www.examai.app/'
+    },
+
+
+    {
+      title: 'Datamellon Website',
+      description:
+        'Collaborate with the team to revamp the Datamellon website to  reflects Datamellon`s s values and meets the needs of our growing audience',
+      imageUrl:
+        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.52.54.png',
+      tags: ['React', 'Typescript', 'Material UI', 'Swiper', 'AWS Amplify', 'DynamoDB', 'React Testing Library', 'TailwindCSS', 'React Query'
+      ],
+      website: 'https://datamellon.com/',
+      github: 'https://datamellon.com/'
+    },
+
+
+    {
       title: 'Cover Letter Expert',
       description:
         'An AI application that revolutionize job application experience with cutting-edge AI-powered Cover Letter Generator, crafting compelling and personalized cover letters tailored to unique professional journey power by OpenAI',
@@ -262,19 +299,6 @@ export default function Home() {
     },
 
     {
-      title: 'Datamellon Website',
-      description:
-        'Collaborate with the team to revamp the Datamellon website to  reflects Datamellon`s s values and meets the needs of our growing audience',
-      imageUrl:
-        'https://shortvideoassets.s3.us-east-1.amazonaws.com/Screenshot+2024-12-11+at+21.52.54.png',
-      tags: ['React', 'Typescript', 'Material UI', 'Swiper', 'AWS Amplify', 'DynamoDB', 'React Testing Library', 'TailwindCSS', 'React Query'
-      ],
-      website: 'https://datamellon.com/',
-      github: 'https://datamellon.com/'
-    },
-
-
-    {
       title: 'Ajiroba',
       description:
         'Developed an auction retail platform.',
@@ -284,6 +308,11 @@ export default function Home() {
       website: 'https://ajiroba.org/',
       github: 'https://ajiroba.org/'
     },
+
+
+ 
+
+
 
     {
       title: 'Create Tribute',
