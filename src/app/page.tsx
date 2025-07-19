@@ -809,6 +809,8 @@ export default function Home() {
                 "CSS3",
                 "JavaScript",
                 "TypeScript",
+                "OpenAI",
+                "Amazon Bedrock",
                 "Node.js",
                 "React",
                 "Redux",
