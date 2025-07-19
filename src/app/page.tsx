@@ -566,7 +566,7 @@ export default function Home() {
           >
             <div className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
               <p className="text-[#737373] txtWhtsub">
-                I am a frontend engineer with over 4 years of experience,
+                I am a frontend engineer with <b>over 4 years of experience</b>,
                 holding a degree in mathematics and a Master of Science (MSc) in
                 mathematics, and a strong background in software development
                 using JavaScript, TypeScript, React, and NextJs amongst other
