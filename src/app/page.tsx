@@ -193,7 +193,7 @@ export default function Home() {
 
     {
       company: "CodeFixBug",
-      link: "https://changera.co",
+      link: "https://codefixbug.com/",
       logo: codefixlogo,
       title: "Frontend Engineer (Contractor)",
       duration: "May 2022 - Dec 2022",
@@ -209,7 +209,7 @@ export default function Home() {
 
     {
       company: "DevCareers ",
-      link: "https://changera.co",
+      link: "https://devcareer.io/",
       logo: devcareerlogo,
       title: "Frontend Engineer (Internship)",
       duration: "Aug 2020 - Nov 2020",
