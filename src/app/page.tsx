@@ -159,16 +159,15 @@ export default function Home() {
       link: "https://datamellon.com/",
       /*  logo: "https://datamellon.com/images/Datamellon_logo.svg", */
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTldAbP0IGerQC5SKV14jEviAHCXmj4wewZ4w&s",
-      title: "Senior Frontend Engineer",
+      title: "Senior Software Engineer",
       duration: "Sep 2021 - Present",
       details: [
-        "Played a key role in the development of Klaudworks, an AI-powered FinOps solution that ensures continuous monitoring, automated optimization, and strategic cost control, delivering unparalleled financial management for cloud investments.",
-        "Optimized website performance for Datamellon website, enhancing user accessibility and site speed by an outstanding 40%, consequently amplifying user satisfaction and retention rates.",
-        "Leveraged AWS tools like Amplify, S3, and EC2 services, for deployment and hosting services.",
-        "Actively engaged in planning and translating client requirements into solutions, collaborating with teams to deliver quality results on time.",
-        "Led the development of product dashboards, driving a remarkable 30% improvement in operational efficiency.",
-        "Supported junior colleagues and interns by providing guidance and unblocking challenges in AWS services, including AWS Amplify, while offering additional assistance as needed.",
-
+        "Built Klaudworks, an AI-powered FinOps platform that monitors AWS spend, surfaces cost anomalies and recommends optimisations for cloud workloads.",
+        "Worked across the stack on multiple client products, contributing to API design, frontend architecture, infra-as-code and AWS deployments.",
+        "Improved Datamellon website load time by 40% through bundle splitting, image optimisation and Core Web Vitals tuning.",
+        "Built internal product dashboards that lifted operational efficiency by about 30% and removed a lot of manual reporting.",
+        "Used AWS services (Amplify, Lambda, S3, EC2, IAM) for hosting, automation and access control.",
+        "Mentored junior engineers and interns on TypeScript, React patterns, code review and AWS services such as Amplify and Lambda.",
       ],
       bgColor: 'black'
 
@@ -178,14 +177,14 @@ export default function Home() {
       company: "AutoclipsAI",
       link: "https://www.autoclipsai.app/",
       logo: autoclips,
-      title: "Founding Senior Frontend Engineer (Contractor)",
+      title: "Founding Software Engineer (Contractor)",
       duration: "Jun 2024 - Present",
       details: [
-        "Led the development of user-friendly interfaces to streamline video creation, enhancing accessibility and user satisfaction.",
-        "Leveraged AWS tools like Amplify, S3, and EC2 services, for deployment and hosting services.",
-        "Analyzed and resolved technical issues related to video creation, minimizing downtime and maximizing customer satisfaction.",
-        "Utilized test automation to ensure maintainable solutions and reduce bugs pushed to production significantly.",
-
+        "Lead engineering for an AI video creation platform that lets creators generate captivating short-form content for YouTube and TikTok without showing their face.",
+        "Designed and shipped the Next.js + TypeScript frontend, integrated payment flows (Paystack, Lemon Squeezy) and authentication (NextAuth).",
+        "Built backend integrations and queues that orchestrate AI video generation jobs and notify users on completion.",
+        "Deployed the app on AWS using Amplify, S3 and EC2; set up automated tests to keep regressions out of production.",
+        "Diagnosed and fixed issues across the video pipeline, cutting downtime and improving user satisfaction.",
       ],
       bgColor: 'white'
 
@@ -195,13 +194,13 @@ export default function Home() {
       company: "CodeFixBug",
       link: "https://codefixbug.com/",
       logo: codefixlogo,
-      title: "Frontend Engineer (Contractor)",
+      title: "Software Engineer (Contractor)",
       duration: "May 2022 - Dec 2022",
       details: [
-        "Redesigned and optimized the company’s website and admin portal, enhancing user experience and functionality, which significantly improved customer satisfaction and retention rates.",
-        "Implemented UI from Figma designs, integrating RESTful APIs and endpoints for seamless user experiences.",
-        "Optimized registration and onboarding flows, culminating in a significant 40% increase in completed registrations.",
-        "Managed technical team to deliver high-quality projects on time.",
+        "Redesigned and shipped the company website and admin portal, improving usability and overall product quality.",
+        "Translated Figma designs into responsive interfaces and integrated RESTful APIs end to end.",
+        "Reworked the registration and onboarding flow, lifting completed registrations by 40%.",
+        "Coordinated a small technical team to deliver client projects on schedule.",
       ],
       bgColor: 'white'
 
@@ -245,6 +244,28 @@ export default function Home() {
       tags: ['AWS Lambda', 'API Gateway', 'DynamoDB', 'Amazon Bedrock', 'Supabase Auth', 'Next.js', 'GitHub API', 'AWS Amplify'],
       website: 'https://www.codepullai.site/',
          github: 'https://github.com/femakin/CodePullAI'
+    },
+
+    {
+      title: 'JobScraper',
+      description:
+        'AI-powered remote job aggregator that pulls listings from 15 sources (REST APIs, RSS, HTML scraping and WhatsApp groups), filters them through a 5-stage pipeline, scores relevance with OpenAI and ships WhatsApp alerts via Twilio. Scrapers run on AWS Lambda + EventBridge every 30 minutes.',
+      imageUrl:
+        'https://opengraph.githubassets.com/1/femakin/JobScraper',
+      tags: ['Next.js', 'TypeScript', 'Supabase', 'PostgreSQL', 'AWS Lambda', 'EventBridge', 'AWS Amplify', 'OpenAI', 'Twilio', 'Baileys', 'Cheerio', 'TailwindCSS', 'shadcn/ui'],
+      website: 'https://github.com/femakin/JobScraper',
+      github: 'https://github.com/femakin/JobScraper'
+    },
+
+    {
+      title: 'Church Attendance Management System',
+      description:
+        'Multi-role church operations platform with Admin, HOD, Worker and Member access tiers and time-locked attendance marking. Designed the PostgreSQL schema with Row-Level Security, an audit log, CSV import/export, profile photo uploads to AWS S3 and real-time analytics dashboards.',
+      imageUrl:
+        'https://opengraph.githubassets.com/1/cacjigmedia/Church-Attendance-Management-System',
+      tags: ['Next.js 16', 'React 19', 'TypeScript', 'Supabase', 'PostgreSQL', 'Row-Level Security', 'AWS S3', 'TanStack Query', 'Recharts', 'PapaParse', 'TailwindCSS', 'shadcn/ui'],
+      website: 'https://jigmedia.site/login',
+      github: 'https://github.com/femakin/Church-Attendance-Management-System'
     },
 
     {
@@ -515,14 +536,14 @@ export default function Home() {
                 </div>
                 <div className="flex">
                   <span
-                    className="inline-block max-w-[600px] md:text-xl txtWht"
+                    className="inline-block whitespace-nowrap text-xs sm:text-sm md:text-xl txtWht"
                     style={{
                       opacity: 1,
                       filter: "blur(0px)",
                       transform: "translateY(-8px) translateZ(0px)",
                     }}
                   >
-                    Frontend Engineer | Javascript | Typescript.
+                    Senior Software Engineer · TypeScript · Next.js · Node.js · AWS.
                   </span>
                 </div>
               </div>
@@ -566,18 +587,16 @@ export default function Home() {
           >
             <div className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
               <p className="text-[#737373] txtWhtsub">
-                I am a frontend engineer with <b>over 4 years of experience</b>,
-                holding a degree in mathematics and a Master of Science (MSc) in
-                mathematics, and a strong background in software development
-                using JavaScript, TypeScript, React, and NextJs amongst other
-                tools. Over the years, I have specialized in building and
-                optimizing web applications in several industries and startups,
-                especially in the cloud space, and AI space, working with cross-functional
-                teams to design solutions that meet business goals and drive
-                measurable results. My commitment to best practices and
-                attention to detail ensures that my code not only meets
-                standards but also pushes the envelope in terms of performance
-                and user engagement
+                I am a software engineer with <b>over 5 years of experience</b> shipping
+                production web applications across the stack. I work comfortably from UI
+                down to APIs, databases and serverless infrastructure, using TypeScript,
+                React, Next.js, Node.js, PostgreSQL and AWS. I hold a BSc and an MSc in
+                Mathematics, and I am AWS Certified as both a Developer and a Solutions
+                Architect. Most of my recent work sits at the intersection of cloud and
+                AI: AI-powered FinOps, LLM-driven study tools, scheduled scraping pipelines,
+                role-based platforms and real-time dashboards. I care a lot about clean
+                architecture, performance, accessibility, and writing code that the next
+                engineer can pick up without flinching.
               </p>
             </div>
           </div>
@@ -805,33 +824,38 @@ export default function Home() {
             {/* Skill list */}
             <div className="flex flex-wrap gap-1">
               {[
-                "HTML5",
-                "CSS3",
-                "JavaScript",
                 "TypeScript",
-                "OpenAI",
-                "Amazon Bedrock",
+                "JavaScript",
                 "Node.js",
                 "React",
-                "Redux",
                 "Next.js",
-                "AWS",
-                "AWS Amplify",
-                "AWS Lambda",
-                "ChakraUI",
-                "Ant Design",
-                "Git",
-                "Figma",
-                "GCP",
+                "React Native",
+                "REST APIs",
+                "GraphQL",
+                "OpenAI",
+                "Amazon Bedrock",
+                "PostgreSQL",
+                "Supabase",
                 "MongoDB",
                 "DynamoDB",
-                "Shadcn",
-                "Storybook",
+                "AWS",
+                "AWS Lambda",
+                "AWS Amplify",
+                "AWS S3",
+                "AWS EventBridge",
+                "GCP",
+                "Docker",
+                "CI/CD",
+                "Git",
                 "Tailwind CSS",
+                "shadcn/ui",
+                "ChakraUI",
                 "MaterialUI",
+                "Storybook",
+                "Jest",
+                "React Testing Library",
+                "Figma",
                 "Vercel",
-                "GraphGl",
-                "React Query"
               ].map((skill, index) => (
                 <div
                   key={index}
