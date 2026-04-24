@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
       "d2fltix0v2e0sb.cloudfront.net",
       "encrypted-tbn0.gstatic.com",
       "pbs.twimg.com",
+      "opengraph.githubassets.com",
     ],
   },
 };
